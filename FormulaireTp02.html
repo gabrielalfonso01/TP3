@@ -11,80 +11,83 @@
 </head>
 <body class="background">
   <section>
+      <!--Section pour le header -->
     <header class=header>
         <img src="images/LogoCompagnie.png" width="60px" height="60px" alt="Logo de la Compagnie">
-        <a href="PagePrincipale.html"><strong class="titreprincipale">Québec-Nord</strong></a>
-        <a href="DestinationTp03.html"><em>Destinations</em></a>
-        <a href="PageAPropos.html"><em>À Propos</em> </a> 
+        <a class="lien" href="PagePrincipale.html"><strong class="titreprincipale">Québec-Nord</strong></a>
+        <a class="lien" href="DestinationTp03.html"><em>Destinations</em></a>
+        <a class="lien" href="PageAPropos.html"><em>À Propos</em> </a> 
         <em><u>Contact</u></em>
          <em>Rechercher</em>
         <img src="images/profile.png" width="60px" height="60px" alt="Logo Profil">
     </header>
 </section> 
+      <!--Deuxième partie de la page -->
 <div class="position">
+      <!--Titre de la page -->
    <h1 class="Title_Color" class="position taille" >Des questions?</h1>
   </div>
   <main>
    <div class="position taille">
    <section>
+    <!--Première partie du formulaire -->
     <form action="FormulaireTp02.html">
       <fieldset class="Field">  
-        <legend><h2 class="Title_Color">Information</h2></legend>
-        <br>
+        <legend><h2 class="Title_Color">Information</h2></legend><br>
         <div class="espacement taille">
-        <label for="Name" class="Title_Color">Nom: </label>
-        <input type="text" id="Name" name="Name" class="input">
-      </div>
-      
-        <br>
+          <!--Nom -->
+          <label for="Name" class="Title_Color">Nom: </label>
+          <input type="text" id="Name" name="Name" class="input">
+        </div><br>
+          <!--Prénom -->
         <div class="espacement taille">
-        <label for="Firstname" class="Title_Color">Prénom: </label>
-        <input type="text" id="Firstname" name="Firstname"  class="input">
-      </div>
-        <br>
-    <div class="espacement taille">
+          <label for="Firstname" class="Title_Color">Prénom: </label>
+          <input type="text" id="Firstname" name="Firstname"  class="input">
+        </div><br>
+          <!--Courriel -->
+        <div class="espacement taille">
           <label for="Mail" class="Title_Color">Adresse courriel: </label>
-        <input type="text" id="Mail" name="Mail"  class="input">
-    </div>
-        <br>
-    <div class="espacement taille">
+          <input type="text" id="Mail" name="Mail"  class="input">
+        </div><br>
+          <!--Téléphone -->
+        <div class="espacement taille">
           <label for="Phone" class="Title_Color">Numéro de téléphone: </label>
-        <input type="text" id="Phone" name="Phone"  class="input">
-    </div>
-        <br>
-    <div class="espacement taille">
+          <input type="text" id="Phone" name="Phone"  class="input">
+        </div><br>
+          <!--Region -->
+        <div class="espacement taille">
           <label for="Region" class="Title_Color">Région: </label>
-        <input type="text" id="Region" name="Region"  class="input">
-      </div>
-        <br>
-       <p class="Title_Color taille">Sexe 
-        <input type="radio" name="sexe" id="Homme"><label for="Homme">Homme</label  class="input">
-        <input type="radio" name="sexe" id="Femme"><label for="Femme">Femme</label  class="input">
-        <input type="radio" name="sexe" id="Autre"><label for="Autre">Autre</label  class="input">
-       </p>
-       <br>
-    <div class="espacement taille">
-        <label for="Age" class="Title_Color">Âge</label>
-        <input type="text" id="Age" name="Age"  class="input">
-   </div>
+          <input type="text" id="Region" name="Region"  class="input">
+        </div><br>
+          <!--Section Sexe -->
+        <p class="Title_Color taille">Sexe 
+          <input type="radio" name="sexe" id="Homme"><label for="Homme">Homme</label  class="input">
+          <input type="radio" name="sexe" id="Femme"><label for="Femme">Femme</label  class="input">
+          <input type="radio" name="sexe" id="Autre"><label for="Autre">Autre</label  class="input">
+        </p><br>
+         <!--Âge -->
+        <div class="espacement taille">
+          <label for="Age" class="Title_Color">Âge</label>
+          <input type="text" id="Age" name="Age"  class="input">
+        </div>
       </fieldset>
     </form>
   </section>
  </main>
 </div>
     <br>
+    <!--Deuxième partie du formulaire -->
 <div class="position taille">
     <form action="FormulaireTp02.html">
-     <fieldset class="Field taille">  
-        
+      <fieldset class="Field taille">  
         <legend><label for="Feedback"><legend><h2 class="Title_Color">Écrivez Nous</h2></label></legend>
         <textarea name="Feedback" id="Feedback" cols="50" rows="10"></textarea>
      </fieldset>
     </form>
 </div>
+    <!--Section des boutons -->
 <div class="bouton">
-  <div class="position2 taille bouton">
-    <br>
+  <div class="position2 taille bouton"><br>
     <input type="submit" name="envoyer" id="envoyer" width="4cm" height="2cm">
   </div>
   <div class="position2 taille bouton"><br>
