@@ -1,0 +1,49 @@
+.Title_Color{
+    color: #0934A3;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+ }
+ 
+ header{
+    background-color: #0934A3;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2%;
+      }
+
+      .Position{
+      
+      }
+      Legend{
+         border-radius: 10%;
+      }
+   .image{
+      
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+   }
+   .arrondir{
+      border-radius: 10%;
+   }
+   .region{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      color: #0934A3;
+      font-weight: bold;
+      font-size: x-large;
+      font-family: 'Teko', sans-serif;
+
+   }
+   .background{
+      background-color: #e0e0e0;
+
+   }
+   
